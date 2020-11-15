@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color:#f6f5fs;
+    margin:0px;
+    padding:0px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+#container{
+    width: 100%;
+    height: 95vh;
+    background: url("./codepic.jpg");
+    background-repeat: no repeat;
+    background-size:cover; 
+    position: relative;
+}
+
+background: url("../../../docs/Portfolio-pic.png") center/cover no-repeat;
+height: 100%;
+color: $primary-font-color;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: .5fr 3fr 4fr 1fr;
+grid-template-areas:
+"topnav"
+"home"
+"end-area"
+"contact";
+padding: 1em;
+@include font-settings();
+@include big {
+font-size: 1.25em;
+padding: 1em;
+grid-template-rows: .5fr 2fr 4fr .5fr;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    background-color: rgba(000, 000, 000, 0.1)
+    box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family:Verdana ;
+    color:#505850;
+    font-size:25px;
+    font-weight:700;
+}
+.logo{ 
+    font-family:monospace;
+    color:#000000;
+    font-size:20px;
+}
+.active{
+    font-weight: bold;
+    color:#2d2a2a
+}
+. text-container p:nth-child(1){
+
+    font-family: calibri;
+    font-weight: bold;
+    color:#6d6d6d;
+    font-size: 60px;
+}
+h1 {
+    text-align: center;
+}
+.text-container p:nth-child(2){ 
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: 1a1a1a;
+    font-size: 30px;
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-weight: bold;
+    font-size: 70px;
+    line-height:30px;
+}
+.text-container p{
+    font-size: 30px;
+    line-height: 0px;
+    margin: 45px 0px 25px;
+
+}
+.text-container {
+    position: absolute;
+    left: 42.5%;
+    top:50%;
+    transform:translate(-13%,-42%);
+}
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin:0px 10px;
+}
+
+    }
+}
+}
+.model{
+    height:150px;
+    position: absolute;
+    bottom: 30px;
+    right: 40%;
+    transform: translate(-70%);
+}
+.about-container {
+    width: 80%;
+    margin:20px auto 20px auto;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+ -   position: relative;
+    justify-content:space-evenly; 
+    
+}
+.about-container img {
+   height: 250px;
+   width: 250px;
+   display:block;
+   margin:0 auto;   
+
+}
+.about-text{
+    padding:20px;
+}
+.about-text p:nth-child(1) {
+    color: 403e33;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+.about-text p:nth-child(2){
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 5px;
+}
+.about-text p:nth-child(3)
+.about-textp:nth-child(4){
+    color: #7e7d7d;
+    font-family: calibri;
+    font-size: 16px;
+}
+.about-text button {
+    width: 120px;
+    height: 40px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-family: calibri;
+    background-color: #262525;
+}
+.social-media-list li{
+    display: inline-block;
+}
+
+
+
+footer{
+    padding:1px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+    font-family:verdana;
+
+}
+.title h1 {
+    font-size: 32px;
+    line-height: 10px;
+}
+form {
+    margin-top: 50px;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color:#0b0b0b;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background-color: rgba(000, 000, 000, 0.1)
+    border-color: transparent;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    transition: ease;
+
+}
+form .submit :hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+.blog
+img {
+    max-width: 100px;
+    max height: 100px;
+}
