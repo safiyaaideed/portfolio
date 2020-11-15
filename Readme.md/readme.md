@@ -22,6 +22,10 @@ This website was created purely with HTML and CSS, it was all linked to one CSS 
 <a href="./projects.png"></a>
 <a href="./projectsmobile.png"></a>
 
+# Links
+https://safiyaaideed.netfly.app
+https://github.com/safiyaaideed?tab=repositories
+
 # Target audience
 The target audience for this website is any future employer that would like to see what skills I have to offer to them. This website was also styled in a way that would fit in with today's technology and designs. It was made to look very minimalistic and modern.
 
